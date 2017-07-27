@@ -1,0 +1,87 @@
+/*Hero Section*/
+
+#about-hero {
+    background-image: url(http://static3.businessinsider.com/image/556602d6ecad04ae44e30451/12-ways-to-get-paid-to-travel-the-world.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 80%;
+    float: left;
+    /*Resize image with pixlr?*/
+}
+
+#about-hero~h1 {
+    width: 20%;
+    float: right;
+    margin-top: 8%;
+    text-shadow: 2px 2px 4px #333;
+}
+
+video {
+    width: 600px;
+    height: 400px;
+}
+
+/*Column style*/
+.column {
+    width: 33%;
+    height: 400px;
+    float: left;
+    padding: 0px 16px;
+    position: relative;
+}
+
+.column p {
+    text-align: justify;
+    height: 290px;
+    overflow: scroll;
+}
+
+#col-1 {
+    clear: both;
+}
+
+.button {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
+}
+
+#but-1 {
+    background-color: #9f3653;
+    color: #fff;
+}
+
+#but-1:hover {
+    background-color: #fff;
+    color: #9f3653;
+    border: #9f3653 solid 1.5px;
+}
+
+#but-2 {
+    background-color: #9f3653;
+    color: #fff;
+}
+
+#but-2:hover {
+    background-color: #fff;
+    color: #9f3653;
+    border: #9f3653 solid 1.5px;
+    
+}
+
+#but-3 {
+    background-color: #9f3653;
+    color: #fff;
+}
+
+#but-3:hover {
+    background-color: #fff;
+    color: #9f3653;
+    border: #9f3653 solid 1.5px;
+}
+

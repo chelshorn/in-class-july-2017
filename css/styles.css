@@ -1,0 +1,171 @@
+/*Fonts
+font-family: 'Lato', sans-serif;
+font-family: 'Lobster', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=400,400i,700,700i|Lobster');
+
+/*Universals*/
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Lobster', cursive;
+}
+
+p, a {
+    font-family: 'Lato', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+/* Header styles */
+header {
+    position: relative;
+    height: 90px;
+}
+
+#logo-img { 
+    height: 150px;
+    
+}
+
+nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 550px;
+}
+
+nav ul {
+    float: right;
+    width: 400px;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 2%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#home-page {
+    background-color: #c195f4;
+}
+
+#about-page {
+    background-color: #9f3653;
+}
+
+#contact-us-page {
+    background-color: #56dcc6;
+}
+
+/*===== Hero Section ======*/
+
+#hero {
+    height: 600px;
+    background-image: url("../img/Travel.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h2 {
+    font-size: 52px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+/*Sidebar Section*/
+aside {
+    height:400px;
+    background-color: #ccffff;
+    border: 2px solid #000;
+    width: 20%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    float: left;
+}
+
+#blog-links {
+    height: 100%;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+#blog-links a {
+    color: #000;
+    display: block;
+    height: 25%;
+}
+
+#blog-links li {
+    height: 25%;
+    border: solid 2px #000;
+    color: #000;
+    height: 100%;
+}
+
+#blog-links li:hover {
+    background-color: #e7e7e7;
+    font-weight: 900;
+}
+
+/*Main Section */
+main {
+    float: left;
+    width: 80%;
+    height: 400px;
+    overflow: auto;
+}
+
+#main-text {
+    font-size: 1.5em;
+    line-height: 30px;
+    padding: 0px 20px;
+}
+/*Footer*/
+
+.fa {
+    margin: 0 10px;
+}
+
+.fa-facebook {
+    color: lightblue;
+}
+
+.fa-linkedin {
+    color: DarkBlue;
+}
+
+.fa-instagram {
+    color: gray;
+}
+
+footer {
+    background-color: #333;
+    clear: both;
+    padding: 24px 0px;
+}
+
+#copyright {
+    color: #fff;
+}
